@@ -25,7 +25,7 @@ const C = {
 
 const COINS = ["BTC", "ETH", "SOL", "OP", "ARB"];
 const TABS = ["OVERVIEW", "CONTROL", "EVENTS", "TERMINAL", "STATUS"];
-const TAB_ICONS = { OVERVIEW: "◈", CONTROL: "⚡", EVENTS: "◎", TERMINAL: "≡", STATUS: "◷" };
+const TAB_ICONS = { OVERVIEW: "◈", CONTROL: "∀", EVENTS: "◎", TERMINAL: "≡", STATUS: "◷" };
 
 const fmt = (n) => n >= 1000 ? `$${(n / 1000).toFixed(1)}k` : `$${n.toFixed(2)}`;
 const fmtPct = (n) => `${n >= 0 ? "+" : ""}${n.toFixed(2)}%`;
@@ -65,7 +65,7 @@ const INIT_MODULES = [
   { id: 3, name: "Auto-Tagging", icon: "⊞", desc: "Keyword classifier", active: false },
   { id: 4, name: "Phantom Core", icon: "◎", desc: "Decision engine", active: false },
   { id: 5, name: "Token Hunter", icon: "▲", desc: "Opportunity scanner", active: false },
-  { id: 6, name: "Execution", icon: "⚡", desc: "Auto transactions", active: false },
+  { id: 6, name: "Execution", icon: "∑", desc: "Auto transactions", active: false },
   { id: 7, name: "Seed Scanner", icon: "◌", desc: "Wallet generator", active: false },
   { id: 8, name: "Memory", icon: "◉", desc: "Log & pattern store", active: false },
 ];
