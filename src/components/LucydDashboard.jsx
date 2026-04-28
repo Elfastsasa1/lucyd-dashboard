@@ -405,7 +405,7 @@ export default function LucydDashboard() {
           { label: "Intel_Raw", state: modules[0].active ? "ACTIVE" : "IDLE", icon: "↓" },
           { label: "Token Hunter", state: modules[4].active ? (agentState === "SCANNING" ? "SCANNING" : "ACTIVE") : "IDLE", icon: "▲" },
           { label: "Phantom Core", state: modules[3].active ? (agentState === "THINKING" ? "THINKING" : "ACTIVE") : "IDLE", icon: "◎" },
-          { label: "Execution", state: modules[5].active ? "STANDBY" : "OFF", icon: "⚡" },
+          { label: "Execution", state: modules[5].active ? "STANDBY" : "OFF", icon: "∑" },
           { label: "HP (Control)", state: "ONLINE", icon: "◌" },
           { label: "VPS (Engine)", state: agentState !== "STOPPED" ? "ONLINE" : "STANDBY", icon: "▣" },
         ].map(({ label, state, icon }, i, arr) => {
